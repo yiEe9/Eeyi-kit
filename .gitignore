@@ -1,0 +1,19 @@
+# 本机配置与凭据
+kit.env
+phone/kit.env
+pc/kit.env
+*.config.json
+config.json
+
+# 人格正文（复制自 TEMPLATE.md，含个人设定）
+persona/*.txt
+
+# 离线安装包
+*.deb
+*.zip
+
+# 运行时产物
+logs/
+__pycache__/
+*.pyc
+.DS_Store
